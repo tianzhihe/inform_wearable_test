@@ -178,7 +178,7 @@
                     "icon_background_color": "#6BCB77",
                     "use_sf_symbols": true,
                     "sf_symbols_color": "#000000",
-                    "next_question_id": ""
+                    "next_question_id": "q_stress_level"
                 },
                 {
                     "text": "Drowsy",
@@ -186,7 +186,7 @@
                     "icon_background_color": "#FFD93D",
                     "use_sf_symbols": true,
                     "sf_symbols_color": "#000000",
-                    "next_question_id": ""
+                    "next_question_id": "q_stress_level"
                 },
                 {
                     "text": "Tired",
@@ -194,7 +194,7 @@
                     "icon_background_color": "#FF6B6B",
                     "use_sf_symbols": true,
                     "sf_symbols_color": "#000000",
-                    "next_question_id": ""
+                    "next_question_id": "q_stress_level"
                 },
                 {
                     "text": "Struggling",
@@ -202,7 +202,7 @@
                     "icon_background_color": "#FF9F43",
                     "use_sf_symbols": true,
                     "sf_symbols_color": "#000000",
-                    "next_question_id": ""
+                    "next_question_id": "q_stress_level"
                 },
                 {
                     "text": "Energy Emergency",
@@ -210,10 +210,49 @@
                     "icon_background_color": "#FF3B3B",
                     "use_sf_symbols": true,
                     "sf_symbols_color": "#000000",
-                    "next_question_id": ""
+                    "next_question_id": "q_stress_level"
                 }
             ]
-        }
+        },
+        {
+            "question": "Stress Level",
+            "question_id": "q_stress_level",
+            "response_options": [
+                {
+                    "text": "No Stress",
+                    "icon": "face.smiling",
+                    "icon_background_color": "#6BCB77",
+                    "use_sf_symbols": true,
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Mild",
+                    "icon": "face.smiling.fill",
+                    "icon_background_color": "#FFD93D",
+                    "use_sf_symbols": true,
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Moderate",
+                    "icon": "face.neutral",
+                    "icon_background_color": "#FF9F43",
+                    "use_sf_symbols": true,
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Severe",
+                    "icon": "face.frown",
+                    "icon_background_color": "#FF6B6B",
+                    "use_sf_symbols": true,
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Very Severe",
+                    "icon": "face.frown.fill",
+                    "icon_background_color": "#FF3B3B",
+                    "use_sf_symbols": true,
+                    "next_question_id": ""
+                }
             ]
         }
     ]
