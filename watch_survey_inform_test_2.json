@@ -54,9 +54,9 @@
                 },
                 {
                     "text": "Warmer",
-                    "icon": "flame",
+                    "icon": "flame.fill",
                     "icon_background_color": "#FF6B6B",
-                    "use_sf_symbols": false,
+                    "use_sf_symbols": true,
                     "sf_symbols_color": "#FF0000",
                     "next_question_id": "q_adaptive_behaviors_warm"
                 }
@@ -174,7 +174,7 @@
             "response_options": [
                 {
                     "text": "Awake & Alert",
-                    "icon": "battery_full",
+                    "icon": "battery",
                     "icon_background_color": "#6BCB77",
                     "use_sf_symbols": false,
                     "sf_symbols_color": "#000000",
@@ -182,7 +182,7 @@
                 },
                 {
                     "text": "Drowsy",
-                    "icon": "battery_half",
+                    "icon": "battery",
                     "icon_background_color": "#FFD93D",
                     "use_sf_symbols": false,
                     "sf_symbols_color": "#000000",
@@ -190,8 +190,24 @@
                 },
                 {
                     "text": "Tired",
-                    "icon": "battery_empty",
+                    "icon": "battery",
                     "icon_background_color": "#FF6B6B",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_stress_level"
+                },
+                {
+                    "text": "Struggling",
+                    "icon": "triangle",
+                    "icon_background_color": "#FF9F43",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_stress_level"
+                },
+                {
+                    "text": "Energy Emergency",
+                    "icon": "bolt",
+                    "icon_background_color": "#FF3B3B",
                     "use_sf_symbols": false,
                     "sf_symbols_color": "#000000",
                     "next_question_id": "q_stress_level"
@@ -225,8 +241,15 @@
                 },
                 {
                     "text": "Severe",
-                    "icon": "alert",
+                    "icon": "triangle",
                     "icon_background_color": "#FF6B6B",
+                    "use_sf_symbols": false,
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Very Severe",
+                    "icon": "bolt",
+                    "icon_background_color": "#FF3B3B",
                     "use_sf_symbols": false,
                     "next_question_id": ""
                 }
@@ -234,3 +257,4 @@
         }
     ]
 }
+
