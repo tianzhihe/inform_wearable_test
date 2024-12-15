@@ -220,35 +220,35 @@
             "response_options": [
                 {
                     "text": "No Stress",
-                    "icon": "emoticon_happy",
+                    "icon": "face.smiling",
                     "icon_background_color": "#6BCB77",
-                    "use_sf_symbols": false,
+                    "use_sf_symbols": true,
                     "next_question_id": ""
                 },
                 {
                     "text": "Mild",
-                    "icon": "emoticon_neutral",
+                    "icon": "face.smiling.fill",
                     "icon_background_color": "#FFD93D",
-                    "use_sf_symbols": false,
+                    "use_sf_symbols": true,
                     "next_question_id": ""
                 },
                 {
                     "text": "Moderate",
-                    "icon": "emoticon_sad",
+                    "icon": "face.neutral",
                     "icon_background_color": "#FF9F43",
-                    "use_sf_symbols": false,
+                    "use_sf_symbols": true,
                     "next_question_id": ""
                 },
                 {
                     "text": "Severe",
-                    "icon": "exclamationmark.triangle",
+                    "icon": "face.frown",
                     "icon_background_color": "#FF6B6B",
                     "use_sf_symbols": true,
                     "next_question_id": ""
                 },
                 {
                     "text": "Very Severe",
-                    "icon": "bolt.fill",
+                    "icon": "face.frown.fill",
                     "icon_background_color": "#FF3B3B",
                     "use_sf_symbols": true,
                     "next_question_id": ""
