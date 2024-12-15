@@ -1,0 +1,264 @@
+{
+    "survey_name": "User Well-being Survey",
+    "survey_id": "user_well_being_survey",
+    "survey": [
+        {
+            "question": "Thermal Comfort",
+            "question_id": "q_overall_comfort",
+            "response_options": [
+                {
+                    "text": "Not Comfy",
+                    "icon": "emoticon_sad",
+                    "icon_background_color": "#FF6B6B",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_preferences"
+                },
+                {
+                    "text": "Neutral",
+                    "icon": "emoticon_neutral",
+                    "icon_background_color": "#FFD93D",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_preferences"
+                },
+                {
+                    "text": "Comfy",
+                    "icon": "emoticon_happy",
+                    "icon_background_color": "#6BCB77",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_preferences"
+                }
+            ]
+        },
+        {
+            "question": "Thermal Preference",
+            "question_id": "q_thermal_preferences",
+            "response_options": [
+                {
+                    "text": "Cooler",
+                    "icon": "snowflake",
+                    "icon_background_color": "#6EC3F4",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adaptive_behaviors_cool"
+                },
+                {
+                    "text": "No Change",
+                    "icon": "emoticon_happy",
+                    "icon_background_color": "#FFD93D",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_productivity_level"
+                },
+                {
+                    "text": "Warmer",
+                    "icon": "flame.fill",
+                    "icon_background_color": "#FF6B6B",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#FF0000",
+                    "next_question_id": "q_adaptive_behaviors_warm"
+                }
+            ]
+        },
+        {
+            "question": "Adaptive Behavior (Cooler)",
+            "question_id": "q_adaptive_behaviors_cool",
+            "response_options": [
+                {
+                    "text": "Adjust Temp",
+                    "icon": "thermometer",
+                    "icon_background_color": "#FF9F43",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_productivity_level"
+                },
+                {
+                    "text": "Change Cool Clothes",
+                    "icon": "clothes_shirt_sleeveless",
+                    "icon_background_color": "#6BCB77",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_productivity_level"
+                },
+                {
+                    "text": "Move Location",
+                    "icon": "mappin.and.ellipse",
+                    "icon_background_color": "#A4E4FA",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_productivity_level"
+                },
+                {
+                    "text": "Drink Cool",
+                    "icon": "cup.and.saucer",
+                    "icon_background_color": "#5A92C4",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_productivity_level"
+                }
+            ]
+        },
+        {
+            "question": "Adaptive Behavior (Warmer)",
+            "question_id": "q_adaptive_behaviors_warm",
+            "response_options": [
+                {
+                    "text": "Adjust Temp",
+                    "icon": "thermometer",
+                    "icon_background_color": "#FF9F43",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_productivity_level"
+                },
+                {
+                    "text": "Change Warm Clothes",
+                    "icon": "clothes_pullover",
+                    "icon_background_color": "#6BCB77",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_productivity_level"
+                },
+                {
+                    "text": "Move Location",
+                    "icon": "mappin.and.ellipse",
+                    "icon_background_color": "#FFA5A5",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_productivity_level"
+                },
+                {
+                    "text": "Drink Warm",
+                    "icon": "cup.and.saucer.fill",
+                    "icon_background_color": "#D15353",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#FF0000",
+                    "next_question_id": "q_productivity_level"
+                }
+            ]
+        },
+        {
+            "question": "Productivity Level",
+            "question_id": "q_productivity_level",
+            "response_options": [
+                {
+                    "text": "Good",
+                    "icon": "emoticon_happy",
+                    "icon_background_color": "#6BCB77",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_fatigue_level"
+                },
+                {
+                    "text": "Average",
+                    "icon": "emoticon_neutral",
+                    "icon_background_color": "#FFD93D",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_fatigue_level"
+                },
+                {
+                    "text": "Poor",
+                    "icon": "emoticon_sad",
+                    "icon_background_color": "#FF6B6B",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_fatigue_level"
+                }
+            ]
+        },
+        {
+            "question": "Fatigue Level",
+            "question_id": "q_fatigue_level",
+            "response_options": [
+                {
+                    "text": "Awake & Alert",
+                    "icon": "battery.100",
+                    "icon_background_color": "#6BCB77",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_stress_level"
+                },
+                {
+                    "text": "Drowsy",
+                    "icon": "battery.50",
+                    "icon_background_color": "#FFD93D",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_stress_level"
+                },
+                {
+                    "text": "Tired",
+                    "icon": "battery.25",
+                    "icon_background_color": "#FF6B6B",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_stress_level"
+                },
+                {
+                    "text": "Struggling",
+                    "icon": "exclamationmark.triangle",
+                    "icon_background_color": "#FF9F43",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_stress_level"
+                },
+                {
+                    "text": "Energy Emergency",
+                    "icon": "bolt.fill",
+                    "icon_background_color": "#FF3B3B",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_stress_level"
+                }
+            ]
+        },
+        {
+            "question": "Stress Level",
+            "question_id": "q_stress_level",
+            "response_options": [
+                {
+                    "text": "No Stress",
+                    "icon": "1.circle.fill",
+                    "icon_background_color": "#6BCB77",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Mild Stress",
+                    "icon": "2.circle.fill",
+                    "icon_background_color": "#FFD93D",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Moderate Stress",
+                    "icon": "3.circle.fill",
+                    "icon_background_color": "#FF6B6B",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Much Stress",
+                    "icon": "4.circle.fill",
+                    "icon_background_color": "#FF9F43",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Extreme Stress",
+                    "icon": "5.circle.fill",
+                    "icon_background_color": "#FF3B3B",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                }
+            ]
+        }
+    ]
+}
