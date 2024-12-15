@@ -241,16 +241,16 @@
                 },
                 {
                     "text": "Severe",
-                    "icon": "alert_triangle",
+                    "icon": "exclamationmark.triangle",
                     "icon_background_color": "#FF6B6B",
-                    "use_sf_symbols": false,
+                    "use_sf_symbols": true,
                     "next_question_id": ""
                 },
                 {
                     "text": "Very Severe",
-                    "icon": "alert_octagon",
+                    "icon": "bolt.fill",
                     "icon_background_color": "#FF3B3B",
-                    "use_sf_symbols": false,
+                    "use_sf_symbols": true,
                     "next_question_id": ""
                 }
             ]
