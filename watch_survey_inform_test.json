@@ -84,9 +84,9 @@
                 },
                 {
                     "text": "Move Location",
-                    "icon": "map",
+                    "icon": "mappin.and.ellipse",
                     "icon_background_color": "#6EC3F4",
-                    "use_sf_symbols": false,
+                    "use_sf_symbols": true,
                     "sf_symbols_color": "#000000",
                     "next_question_id": "q_productivity_level"
                 },
@@ -122,9 +122,9 @@
                 },
                 {
                     "text": "Move Location",
-                    "icon": "map",
+                    "icon": "mappin.and.ellipse",
                     "icon_background_color": "#6EC3F4",
-                    "use_sf_symbols": false,
+                    "use_sf_symbols": true,
                     "sf_symbols_color": "#000000",
                     "next_question_id": "q_productivity_level"
                 },
